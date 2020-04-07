@@ -1,0 +1,72 @@
+:root{
+    --radius-buttons:60px;
+    --boll-center-radio:120px;
+    --boll:90px
+}
+.test{
+    height: 85px;
+    width: 100%;
+    background-color: #3b6978;
+    align-items: center;
+    display:flex;
+}
+.nav-logo{
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    border-radius: 10px;
+    margin:10px;
+    height:65px;
+    width: 30%;
+    background-color:white;
+}
+.inscrever{
+    
+    margin: 10px 10px 10px 30px;
+    border-radius: var(--radius-buttons);
+    height: var(--radius-buttons);
+    width: var(--radius-buttons);
+    background-color: white;
+}
+.entrar{
+    margin: 10px;
+    border-radius: var(--radius-buttons);
+    height: var(--radius-buttons);
+    width: var(--radius-buttons);
+    background-color: white;
+}
+.cartao{
+    margin: 10px;
+    border-radius: var(--radius-buttons);
+    height: var(--radius-buttons);
+    width: var(--radius-buttons);
+    background-color: white
+}
+.boll{
+    margin-top:20px ;
+    width:var(--boll) ;
+    height: var(--boll);
+    background-color: white;
+    border-radius: var(--boll);
+}
+.boll-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: var(--boll-center-radio);
+    width:var(--boll-center-radio);
+    height: var(--boll-center-radio);
+    background-color:#3b6978;
+        
+}
+.logo-center{
+    display:flex;
+    width:33%;
+    justify-content: center;
+    
+}
+body{
+    margin:0px;
+}
